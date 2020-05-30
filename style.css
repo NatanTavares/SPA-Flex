@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+}
+
+header, footer {
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  padding: 2em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container {
+  box-shadow: 2px 2px 4px 2px #a8a6a655;
+  margin: 1em;
+  background-color: #ffffff;
+}
+
+.container h2 {
+  margin: 0.5em;
+}
+
+.container h3 {
+  margin: 0.6em;
+}
+
+.container p {
+  margin: 0.7em;
+}
+
+.opacity {
+  font-weight: lighter;
+  color: #a6a6a6;
+}
+
+.highlight-black {
+  background-color: black;
+  color: white;
+  padding:0 0.31em;
+}
+
+.bottom-content-section {
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8em;
+}
+
+.bottom-content-section button {
+  font-weight: bold;
+  padding: 0.2em 0.8em 0 0.8em;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 0.1em;
+}
+
+.bottom-content-section button:hover {
+  background-color: #E8E8E8;
+}
+
+#post2 {
+  border-radius: 100%;
+}
+
+/* .One {
+  
+} */
+
+/* .Two {
+  
+} */
+
+/* .Three {
+  
+} */
+
+/* ============ Caixa 4 ============ */
+
+.Four {
+  padding: 0;
+}
+
+.Four h3, .Five h3 {
+  padding: 0.8em;
+  margin: 0;
+  font-weight: 400;
+  background-color: #f1f1f1;
+}
+
+ul li {
+  list-style: none;
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+}
+
+li h4 {
+  font-weight: 400;
+  margin: 0.6em;
+}
+
+.content-popular-post {
+  display: block;
+}
+
+li img {
+  margin: 0.8em;
+}
+
+li:hover {
+  transition: 400ms;
+  background-color: #CCCCCC;
+}
+
+/* ============ Caixa 5 ============ */
+.Five .tags {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0.6em;
+}
+
+.Five p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.Five span{
+  display: inline-block;
+  justify-content: space-around;
+  background-color: #f1f1f1;
+  font-size: small;
+  font-weight: lighter;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.Five span:first-child {
+  background-color: black;
+}
+
+footer {
+  background-color: red;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
